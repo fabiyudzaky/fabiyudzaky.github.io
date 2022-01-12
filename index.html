@@ -14,10 +14,6 @@
             padding: 10px;
         }
 
-        h1, h2, h3, h4, p, li, a, address {
-            color:grey;
-        }
-
         td {
             padding: 15px;
         }
@@ -67,7 +63,6 @@
         }
 
         .popup .close {
-            position: absolute;
             top: 20px;
             right: 30px;
             /* transition: all 200ms; */
@@ -94,105 +89,266 @@
                 width: 70%;
             }
         } */
+        h1{
+            text-align: center;
+        }
+
+        .navbar{
+            background-color: #101820;
+            height: 50px;
+            width: 100%;
+            padding: 5px 0px;
+            margin-bottom: 20px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .navbar-menu{
+            width: 200px;
+            height: 50px;
+            padding: 0px 20px;
+            font-size: 25px;
+        }
+
+        .navbar-text{
+            color: #fff;
+        }
+
+        .kontak{
+            text-align: right;
+        }
+
+        .profil-foto{
+            padding: 2%;
+        }
+
+        .profil-box{
+            background-color: #fe5000;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .profil-text{
+            color: #fff;
+            margin: 10px 20px;
+        }
+
+        .tentang{
+            text-align: justify;
+        }
+
+        .menu{
+           margin : 20px 20px;
+        }
+
+        .table-menu{
+           margin-left: auto;
+           margin-right: auto;
+        }
+
+        #kerja, #usaha{
+            padding: 20px 0px;
+            background-color: #fe5000;
+        }
+
+        /* #usaha{
+            padding: 20px 0px;
+            background-color: #101820;
+        } */
+
+        .menu-white-text{
+            color: #fff;
+        }
+
+        .menu-black-text{
+            color: #101820;
+        }
+
+        .mengambang{
+            background-color: #fe5000;
+            display: block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            text-decoration: none;
+            transition: ease all 0.3s;
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+        }
     </style>
 </head>
 <body>
-    <table>
+    <h1 style="color: #101820;">Curiculum Viate</h1>
+    <table class="navbar">
+        <td><a href="#profil" class="navbar-menu navbar-text">Profil</a></td>
+        <td><a href="#pendidikan" class="navbar-menu navbar-text">Pendidikan</a></td>
+        <td><a href="#kerja" class="navbar-menu navbar-text">Pengalaman Kerja</a></td>
+        <td><a href="#organisasi" class="navbar-menu navbar-text">Organisasi</a></td>
+        <td><a href="#usaha" class="navbar-menu navbar-text">Usaha</a></td>
+        <td width="25%">
+            <p class="navbar-text">
+                Email : fabiyudzaky@yahoo.co.id <br>
+                no HP : <a href="https:\\wa.me\6282242983599" target="_blank" class="navbar-text">082242983599</a>
+            </p>
+        </td>
+    </table>
+    <table id="profil">
         <tr>
-            <td width="30%">
+            <td width="30%" class="profil-foto">
                 <img src="img/foto.png" alt="" srcset="" width="100%">
             </td>
-            <td width="70%" align="center">
-                <h1>Fauzan Abiyyu Dzaky, A.Md.Kom.</h1>
-                <address>
-                    <h4>Jl. Tembalang Baru II No. 97</h4>
-                    (Rumah Perjuangan Ir. Soekarno)
-                </address>
-                <h4>No. HP: 082242983599 | Email: fabiyudzaky@yahoo.co.id</h4>
-            </td>
-        </tr>
-        <tr>
-            <td width="30%" style="background-color:black">
-                <h2>Tentang</h2>
-                <p>
-                    Organisasi merupakan satu rutintias wajib yang saya jalani semenjak SMP dengan alasan keluar dari zona dimana banyak yang menyebut sayaanti-sosial. Termotivasi untuk membuktikan bahwa organisasi tidak akan mengganggu kuliah melainkan suatu pendukung yang dapat dirasakan dalam jangka panjang. Setelah berhasil, maka diri ini sadar untuk mewujudkan hal yang lebih besar yaitu menjayakan Indonesia 2045.
-                </p>
-                <h2>Pekerjaan</h2>
-                <p>
-                    Pengolah Data Sistem Informasi <br>
-                    Bagian Aset dan Logistik <br>
-                    Universitas Diponegoro
-                </p>
-                <h2>Usaha</h2>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/reos.solutions/">
-                            ReOS Software
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/_angkringanmase/">
-                            Angkringan Mas'e
-                        </a>
-                    </li>
-                    <li>Stokis HNI</li>
-                    <li>Freelancer Website</li>
-                </ul>
-            </td>
-            <td width="70%">
-                <h2>Pengalaman</h2>
-                <h3>
-                    Wakil Mas’ul BAI Matholiul Anwar UDINUS (2021/2022)
-                </h3>
-                <h3>
-                    Wakil Presiden Mahasiswa POLINES (2018/2019)
-                </h3>
-                <p>
-                    Menjalankan fungsi eksekutif tertinggi yang berada di organisasi kemahasiswaan kampus. Mewujudkannya dengan semaksimal mungkin membantu presiden mahasiswa dalam menjalankan tugasnya, serta menentukan langkah strategis dalam mensejahterakan organisasi intra kampus.
-                </p>
-                <h3>
-                    Ketua Organisasi Daerah FUSIONES (2017/2018)
-                </h3>
-                <p>
-                    Menjadi aktor yang membantu siswa sma di bojonegoro dan teman-teman dalam menjalani pemerantauan di semarang.
-                </p>
-                <h3>
-                    Wakil Ketua 1 OSIS SMANSA (2015/2016)
-                </h3>
-                <p>
-                    Memaksimalkan peran pengelolaan kegiatan luar sekolah, sebagai delegasi sekolah dan pengganti ketua dalam menjalankan fungsi eksternalnya. Selain itu juga menjalin kerjasama dengan pihak institusi tingkat kota sampai provinsi, dalam mendukung kegiatan sekolah maupun kesiswaan.
-                </p>
-                <h2>Pendidikan</h2>
-                <ol>
-                    <li>
-                        <a href="#udinus">
-                            Universitas Dian Nuswantoro
-                        </a>
-                    </li>
-                    <p>Fakultas Ilmu Komputer - Teknik Informatika S1</p>
-                    <li>
-                        <a href="#polines">
-                            Politeknik Negeri Semarang
-                        </a>
-                    </li>
-                    <p>Jurusan Teknik Elektro - D3 Teknik Informatika</p>
-                    <li>
-                        <a href="#smansa">
-                            SMA Negeri 1 Semarang
-                        </a>
-                    </li>
-                    <p>Matematika IPA – Lintas Minat Bahasa Jepang</p>
-                    <li>SMP Ar-Rohmah Malang</li>
-                </ol>
+            <td>
+                <div class="profil-box">
+                    <h2 class="profil-text">Fauzan Abiyyu Dzaky, A.Md.Kom.</h2>
+                    <address>
+                        <h4 class="profil-text">Perum Klipang Permai Blok N/VI No 1</h4>
+                    </address>
+                    <h4 class="profil-text tentang">Organisasi merupakan satu rutintias wajib yang saya jalani semenjak SMP dengan alasan keluar dari zona dimana banyak yang menyebut sayaanti-sosial. Termotivasi untuk membuktikan bahwa organisasi tidak akan mengganggu kuliah melainkan suatu pendukung yang dapat dirasakan dalam jangka panjang. Setelah berhasil, maka diri ini sadar untuk mewujudkan hal yang lebih besar yaitu menjayakan Indonesia 2045.</h4>
+                </div>
             </td>
         </tr>
     </table>
+    <a href="#" class="mengambang">^</a>
+    <div id="pendidikan" class="menu">
+        <h1 class="menu-black-text">Pendidikan</h1>
+        <div>
+            <table border="1" class="table-menu menu-black-text">
+                <thead>
+                    <th>Almamater</th>
+                    <th>Jurusan</th>
+                    <th>Tahun</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#udinus" class="menu-black-text">Universitas Dian Nuswantoro</a></td>
+                        <td>Teknik Informatika S1</td>
+                        <td>2020 - Sekarang</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#polines" class="menu-black-text">Politeknik Negeri Semarang</a></td>
+                        <td>D3 Teknik Informatika</td>
+                        <td>2016 - 2019</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#smansa" class="menu-black-text">SMA Negeri 1 Semarang</a></td>
+                        <td>Matematika IPA</td>
+                        <td>2013 - 2016</td>
+                    </tr>
+                    <tr>
+                        <td>SMP Ar-Rohmah Malang</td>
+                        <td> - </td>
+                        <td>2010 - 2013</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="kerja" class="menu">
+        <h1 class="menu-white-text">Pengalaman Kerja</h1>
+        <table border="1" class="table-menu menu-white-text">
+            <thead>
+                <th>Institusi</th>
+                <th>Jabatan</th>
+                <th>Tahun</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Universitas Diponegoro</td>
+                    <td>Pengolah Data dan Informasi</td>
+                    <td>2020 - Sekarang</td>
+                </tr>
+                <tr>
+                    <td>Freelancer Website</td>
+                    <td> - </td>
+                    <td>2019 - Sekarang</td>
+                </tr>
+                <tr>
+                    <td>Politeknik Negeri Semarang</td>
+                    <td>Magang</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Arka Web</td>
+                    <td>Magang</td>
+                    <td>2019</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="organisasi" class="menu">
+        <h1 class="menu-black-text">Organisasi</h1>
+        <table border="1" class="table-menu menu-black-text">
+            <thead>
+                <th>Organisasi</th>
+                <th>Jabatan</th>
+                <th>Periode</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BAI Matholi'ul Anwar Udinus</td>
+                    <td>Wakil Mas'ul</td>
+                    <td>2021/2022</td>
+                </tr>
+                <tr>
+                    <td>BEM KBM POLINES</td>
+                    <td>Wakil Presiden Mahasiswa</td>
+                    <td>2018/2019</td>
+                </tr>
+                <tr>
+                    <td>Organisasi Daerah FUSIONES</td>
+                    <td>Ketua</td>
+                    <td>2017/2018</td>
+                </tr>
+                <tr>
+                    <td>Organisasi Siswa Intra Sekolah</td>
+                    <td>Wakil Ketua 1</td>
+                    <td>2015/2016</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="usaha" class="menu">
+        <h1 class="menu-white-text">Usaha</h1>
+        <table border="1" class="table-menu menu-white-text">
+            <thead>
+                <th>Usaha</th>
+                <th>Lokasi</th>
+                <th>Link</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ReOS Software</td>
+                    <td>Semarang</td>
+                    <td><a href="https://www.instagram.com/reos.solutions/" class="menu-white-text">https://www.instagram.com/reos.solutions/</a></td>
+                </tr>
+                <tr>
+                    <td>Angkringan Mas'E</td>
+                    <td>Mulawarman Semarang</td>
+                    <td><a href="https://www.instagram.com/_angkringanmase/" class="menu-white-text">https://www.instagram.com/_angkringanmase/</a></td>
+                </tr>
+                <tr>
+                    <td>Stokis HNI</td>
+                    <td>Semarang</td>
+                    <td><a href=""> - </a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <!-- Pop-Up Udinus -->
     <div id="udinus" class="overlay">
         <div class="popup">
-            <h2>Universitas Dian Nuswantoro</h2>
             <a class="close" href="#">&times;</a>
+            <h2>Universitas Dian Nuswantoro</h2>
             <div class="content">
                 <img src="img/udinus.png" alt="" width="100%">
             </div>
@@ -202,8 +358,8 @@
     <!-- Pop-Up Polines -->
     <div id="polines" class="overlay">
         <div class="popup">
-            <h2>Politeknik Negeri Semarang</h2>
             <a class="close" href="#">&times;</a>
+            <h2>Politeknik Negeri Semarang</h2>
             <div class="content">
                 <img src="img/polines.png" alt="" width="100%">
             </div>
@@ -213,8 +369,8 @@
     <!-- Pop-Up Smansa -->
     <div id="smansa" class="overlay">
         <div class="popup">
-            <h2>SMA Negeri 1 Semarang</h2>
             <a class="close" href="#">&times;</a>
+            <h2>SMA Negeri 1 Semarang</h2>
             <div class="content">
                 <img src="img/smansa.png" alt="" width="100%">
             </div>

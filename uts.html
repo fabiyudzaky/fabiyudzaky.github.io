@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Judul yang ditampilkan di tab browser -->
+    <title>Tugas UTS Pemgorgraman Berbasis Website</title>
+
+    <!-- Style di dalam file -->
+    <style>
+        body{
+            padding: 10px;
+        }
+
+        h1, h2, h3, h4, p, li, a, address {
+            color:grey;
+        }
+
+        td {
+            padding: 15px;
+        }
+
+        .box {
+            width: 40%;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.2);
+            padding: 35px;
+            border: 2px solid #fff;
+            /* border-radius: 20px/50px; */
+            /* background-clip: padding-box; */
+            text-align: center;
+        }
+        
+        .overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            /* transition: opacity 500ms; */
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        .overlay:target {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .popup {
+            margin: 70px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            width: 30%;
+            /* position: relative; */
+            /* transition: all 5s ease-in-out; */
+        }
+
+        .popup h2 {
+            margin-top: 0;
+            color: #333;
+            /* font-family: Tahoma, Arial, sans-serif; */
+        }
+
+        .popup .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            /* transition: all 200ms; */
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .popup .close:hover {
+            color: #06D85F;
+        }
+
+        .popup .content {
+            max-height: 30%;
+            overflow: auto;
+        }
+
+        /* @media screen and (max-width: 700px){
+            .box{
+                width: 70%;
+            }
+            .popup{
+                width: 70%;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td width="30%">
+                <img src="img/foto.png" alt="" srcset="" width="100%">
+            </td>
+            <td width="70%" align="center">
+                <h1>Fauzan Abiyyu Dzaky, A.Md.Kom.</h1>
+                <address>
+                    <h4>Jl. Tembalang Baru II No. 97</h4>
+                    (Rumah Perjuangan Ir. Soekarno)
+                </address>
+                <h4>No. HP: 082242983599 | Email: fabiyudzaky@yahoo.co.id</h4>
+            </td>
+        </tr>
+        <tr>
+            <td width="30%" style="background-color:black">
+                <h2>Tentang</h2>
+                <p>
+                    Organisasi merupakan satu rutintias wajib yang saya jalani semenjak SMP dengan alasan keluar dari zona dimana banyak yang menyebut sayaanti-sosial. Termotivasi untuk membuktikan bahwa organisasi tidak akan mengganggu kuliah melainkan suatu pendukung yang dapat dirasakan dalam jangka panjang. Setelah berhasil, maka diri ini sadar untuk mewujudkan hal yang lebih besar yaitu menjayakan Indonesia 2045.
+                </p>
+                <h2>Pekerjaan</h2>
+                <p>
+                    Pengolah Data Sistem Informasi <br>
+                    Bagian Aset dan Logistik <br>
+                    Universitas Diponegoro
+                </p>
+                <h2>Usaha</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/reos.solutions/">
+                            ReOS Software
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/_angkringanmase/">
+                            Angkringan Mas'e
+                        </a>
+                    </li>
+                    <li>Stokis HNI</li>
+                    <li>Freelancer Website</li>
+                </ul>
+            </td>
+            <td width="70%">
+                <h2>Pengalaman</h2>
+                <h3>
+                    Wakil Mas’ul BAI Matholiul Anwar UDINUS (2021/2022)
+                </h3>
+                <h3>
+                    Wakil Presiden Mahasiswa POLINES (2018/2019)
+                </h3>
+                <p>
+                    Menjalankan fungsi eksekutif tertinggi yang berada di organisasi kemahasiswaan kampus. Mewujudkannya dengan semaksimal mungkin membantu presiden mahasiswa dalam menjalankan tugasnya, serta menentukan langkah strategis dalam mensejahterakan organisasi intra kampus.
+                </p>
+                <h3>
+                    Ketua Organisasi Daerah FUSIONES (2017/2018)
+                </h3>
+                <p>
+                    Menjadi aktor yang membantu siswa sma di bojonegoro dan teman-teman dalam menjalani pemerantauan di semarang.
+                </p>
+                <h3>
+                    Wakil Ketua 1 OSIS SMANSA (2015/2016)
+                </h3>
+                <p>
+                    Memaksimalkan peran pengelolaan kegiatan luar sekolah, sebagai delegasi sekolah dan pengganti ketua dalam menjalankan fungsi eksternalnya. Selain itu juga menjalin kerjasama dengan pihak institusi tingkat kota sampai provinsi, dalam mendukung kegiatan sekolah maupun kesiswaan.
+                </p>
+                <h2>Pendidikan</h2>
+                <ol>
+                    <li>
+                        <a href="#udinus">
+                            Universitas Dian Nuswantoro
+                        </a>
+                    </li>
+                    <p>Fakultas Ilmu Komputer - Teknik Informatika S1</p>
+                    <li>
+                        <a href="#polines">
+                            Politeknik Negeri Semarang
+                        </a>
+                    </li>
+                    <p>Jurusan Teknik Elektro - D3 Teknik Informatika</p>
+                    <li>
+                        <a href="#smansa">
+                            SMA Negeri 1 Semarang
+                        </a>
+                    </li>
+                    <p>Matematika IPA – Lintas Minat Bahasa Jepang</p>
+                    <li>SMP Ar-Rohmah Malang</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Pop-Up Udinus -->
+    <div id="udinus" class="overlay">
+        <div class="popup">
+            <h2>Universitas Dian Nuswantoro</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <img src="img/udinus.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Pop-Up Polines -->
+    <div id="polines" class="overlay">
+        <div class="popup">
+            <h2>Politeknik Negeri Semarang</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <img src="img/polines.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Pop-Up Smansa -->
+    <div id="smansa" class="overlay">
+        <div class="popup">
+            <h2>SMA Negeri 1 Semarang</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <img src="img/smansa.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
